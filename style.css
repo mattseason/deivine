@@ -117,6 +117,9 @@ body{
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
+    .active_menu{
+        border-bottom: none;
+    }
 }
 
 /*site*/
