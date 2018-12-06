@@ -747,7 +747,7 @@ footer{
 /*animations*/
 .w3-animate-opacity{animation:opac 2s}@keyframes opac{from{opacity:0} to{opacity:1}}
 .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
-.m-animate-left{animation:fadeLeft 1s}
+.m-animate-left{animation:fadeLeft 2s;}
 
 @keyframes fadeLeft {
 	0% {
