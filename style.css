@@ -653,7 +653,12 @@ pre{
 }
 .hidden{
     visibility: hidden;
+    font-size: 0rem;
 }
+.hidden input{
+    padding: 0rem 0rem;
+}
+
 /*footer*/
 footer{
     font-size: 1rem;

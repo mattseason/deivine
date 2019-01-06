@@ -38,9 +38,6 @@
             <div class="contact_wrapper_us">
                 <h2>Contact Us</h2>
                 <form class="contact_form" name="contact" method="POST" netlify-honeypot="bot-field" netlify>
-                    <p class="hidden">
-                        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-                    </p>
                     <div class="contact_form_name">
                             <label for="fname">First Name</label><input class="input" type="text" name="name" placeholder="">
                     </div>
@@ -49,6 +46,9 @@
                     </div>
                     <div class="contact_form_message">
                             <label for="fname">Message</label><textarea name="message" rows="7" cols="30"></textarea> 
+                    </div>
+                    <div class="hidden">
+                            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                     </div>
                     <div class="contact_form_button">
                         <button type="submit" value="Send">SUBMIT</button>
