@@ -651,7 +651,9 @@ pre{
 .contact_form_button>button:hover{
     background-color: #dadada;
 }
-
+.hidden{
+    visibility: hidden;
+}
 /*footer*/
 footer{
     font-size: 1rem;
